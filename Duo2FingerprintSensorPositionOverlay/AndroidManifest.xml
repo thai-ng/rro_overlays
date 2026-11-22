@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.thain.android.frameworks.base.core.res.overlay.duo2fingerprintsensorposition">
+    <overlay android:targetPackage="android"
+        android:isStatic="true"
+        android:priority="999"
+        android:requiredSystemPropertyName="ro.boot.hardware"
+        android:requiredSystemPropertyValue="surfaceduo2"
+        />
+</manifest>
